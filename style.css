@@ -1,0 +1,191 @@
+body {
+    margin: 10;
+    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: darkblue;
+    
+    /* background: url(img/1402266188-oboi-1920h1080.-golubaya-bezdna-1.jpg) */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+    
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+/* Header */
+
+.header {
+    padding: 20px;
+    
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+    
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+    
+    font-size: 16px;
+    color: #56b6fb;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 8px 12px;
+    
+    color: #121212;
+    text-decoration: none;
+    
+    transition: background-color: 0.2s liner;
+}
+
+nav-link:hover {
+    background-color: #eee;
+}
+
+/* Content */
+
+.content {
+    width: 1200px;
+    padding: 0 5px;
+}
+
+.img {
+    border-radius: 15px;
+    box-shadow: 0 3px 5px #a7a7a7;
+    background-color: #222;
+    opacity: 0.8;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+    transition: opacity 0.2s liner;
+}
+
+.img:hover {
+    opacity: 1;
+}
+
+.content-title {
+    margin: 0 0 15px;
+    
+    font-size: 24px;
+    color: #ce2929;
+}
+
+.imger {
+    background: linear-gradient(to top, #eee, #fff);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.context-text {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #1d7abe;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #e02525;
+}
+
+.sidebar-text {
+    font-size: 12px;
+}
+
+/* Article */
+
+.article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid #ccc;
+    
+    
+}
+
+.article-title {
+    margin: 0 0 5px;
+    
+    font-size: 18px;
+    color: #0d448e;
+}
+
+.article-title a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.article-title a:hover {
+    text-decoration:underline;
+}
+
+.article-date {
+    display: block;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    
+    background-color: #121212;
+    
+    color: #fff;
+    text-align: center;
+}
